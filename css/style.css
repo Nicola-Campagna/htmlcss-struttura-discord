@@ -32,7 +32,23 @@ header{
 
 
 /* CONTENITORE */
+.conteiner{
+    min-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content:center; */
+    min-height: 50px;
+    background-color:black;
+}
+.conteiner-green{
+    min-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    background-color: green;
+    min-height: 600px;
+    border: 3px dotted black;
 
+}
 .conteiner-head{
     max-width: 1200px;
     background-color: #DAA520;
@@ -56,19 +72,91 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
 }
+
+
 /* COLONNE */
 .column-left{
     justify-content: flex-start;
     padding-left: 10px;
-
+    
 }
 
 .column-right{
     justify-content: flex-end;
     padding-right: 10px;
+}    
+.column-head{
+     min-width: 600px;
+     margin: 0 auto;
+    background-color: #EE82EE;
+    border: 3px dotted black;
 }
+
+/* SECTION */
+
+main>section{
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    padding: 30px 0;
+    /* background-color: red; */
+}
+
+section.bg-blue{
+    background-color:#00008B;
+}
+
+section.bg-grey{
+    background-color: #D3D3D3;
+}
+
+section.bg-black{
+    background-color:#23272A ;
+
+}
+
+/* div RIGHT/LEFT */
+.conteiner div{
+    border: 3px dotted black;
+}
+div.right{
+    min-width: 60%;
+}
+
+div.left{
+    min-width: 40%;
+}
+
+.celeste{
+    background-color: #1E90FF;
+}
+
+.pink{
+    background-color: #FFC0CB;
+}
+
+.left-section-black{
+    width: 30%;
+    background-color: #EE82EE;
+
+}
+
+.right-section-black{
+    background-color: aqua;
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+div.right-section-black div{
+    width: calc(70% / 4);
+    border: 3px dotted white;
+    flex-grow: 1;
+
+}
+
 
 
 
