@@ -17,3 +17,58 @@ picture,
 video{
     max-width:100%;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+/* HEADER */
+header{
+    width: 100%;
+    padding: 20px;
+    background-color: #ADD8E6;
+}
+
+
+/* CONTENITORE */
+
+.conteiner-head{
+    max-width: 1200px;
+    background-color: #DAA520;
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+    min-height: 50px;
+}
+
+.conteiner-head .column-left,
+.conteiner-head .column-right {
+    width: 25%;
+    border: 3px dotted black;
+    display: flex;
+    align-items: center;
+}
+
+.conteiner-head nav{
+    width: 50%;
+    border: 3px dotted black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/* COLONNE */
+.column-left{
+    justify-content: flex-start;
+    padding-left: 10px;
+
+}
+
+.column-right{
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+
+
